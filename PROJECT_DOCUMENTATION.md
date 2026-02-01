@@ -1,49 +1,5 @@
 # Technotsav 2025 - Project Documentation
 
-> **CIT's Cultural Event Website** - A beautifully crafted website for the prestigious Technotsav cultural event at Chennai Institute of Technology.
-
----
-
-## ?? Table of Contents
-
-1. [Project Overview](#project-overview)
-2. [Live Deployments](#live-deployments)
-3. [Technology Stack](#technology-stack)
-4. [Project Structure](#project-structure)
-5. [Core Files](#core-files)
-6. [HTML Pages](#html-pages)
-7. [JavaScript Files](#javascript-files)
-8. [Styling & Assets](#styling--assets)
-9. [Data Files](#data-files)
-10. [PWA Support](#pwa-support)
-11. [Design Philosophy](#design-philosophy)
-12. [Features](#features)
-
----
-
-## ?? Project Overview
-
-**Technotsav 2025** is a comprehensive website built for the annual cultural festival at Chennai Institute of Technology. The website was developed by **Sushant Gajbhiye** as a solo project in just **2 weeks** without any AI assistance (2023).
-
-The project showcases:
-- Event listings (Technical, Non-Technical, Workshops, Sports, Pro Shows)
-- User registration and authentication system
-- Profile management
-- Dynamic content loading
-- Custom animations and visual effects
-
----
-
-## ?? Live Deployments
-
-| Platform | URL |
-|----------|-----|
-| **Official** | [2023.Technotsav](https://2023.Technotsav) |
-| **Vercel** | [2023citTechnotsav.vercel.app](https://2023citTechnotsav.vercel.app) |
-| **GitHub Pages** | [sushant23-git.github.io/Technotsav-Website](https://sushant23-git.github.io/Technotsav-Website) |
-
----
-
 ## ?? Technology Stack
 
 | Category | Technology |
@@ -63,57 +19,57 @@ The project showcases:
 
 ```
 Technotsav-Website/
-¦
+Â¦
 +-- ?? HTML Pages
-¦   +-- index.html           # Main landing page
-¦   +-- home.html            # Alternative home page
-¦   +-- events.html          # Events listing page
-¦   +-- login.html           # User login page
-¦   +-- create_account.html  # User registration page
-¦   +-- profile.html         # User profile page
-¦   +-- user_details.html    # User details management
-¦   +-- edit.html            # Event editing interface
-¦   +-- credits.html         # Credits page
-¦   +-- 404.html             # Error page
-¦   +-- message.html         # Message/notification page
-¦   +-- reg.html             # Registration page
-¦   +-- verify_link.html     # Email verification page
-¦   +-- oauth_redirect.html  # OAuth redirect handler
-¦   +-- oauth_redirect_home.html  # OAuth home redirect
-¦   +-- og_redirect.html     # Open Graph redirect
-¦   +-- opening_soon.html    # Coming soon page
-¦   +-- index_construction.html  # Under construction page
-¦
+Â¦   +-- index.html           # Main landing page
+Â¦   +-- home.html            # Alternative home page
+Â¦   +-- events.html          # Events listing page
+Â¦   +-- login.html           # User login page
+Â¦   +-- create_account.html  # User registration page
+Â¦   +-- profile.html         # User profile page
+Â¦   +-- user_details.html    # User details management
+Â¦   +-- edit.html            # Event editing interface
+Â¦   +-- credits.html         # Credits page
+Â¦   +-- 404.html             # Error page
+Â¦   +-- message.html         # Message/notification page
+Â¦   +-- reg.html             # Registration page
+Â¦   +-- verify_link.html     # Email verification page
+Â¦   +-- oauth_redirect.html  # OAuth redirect handler
+Â¦   +-- oauth_redirect_home.html  # OAuth home redirect
+Â¦   +-- og_redirect.html     # Open Graph redirect
+Â¦   +-- opening_soon.html    # Coming soon page
+Â¦   +-- index_construction.html  # Under construction page
+Â¦
 +-- ?? JavaScript Files
-¦   +-- script.js            # Main application logic
-¦   +-- butter.js            # Smooth scrolling library
-¦   +-- cursor.js            # Custom cursor effects
-¦   +-- js/
-¦       +-- jquery.min.js    # jQuery library
-¦
+Â¦   +-- script.js            # Main application logic
+Â¦   +-- butter.js            # Smooth scrolling library
+Â¦   +-- cursor.js            # Custom cursor effects
+Â¦   +-- js/
+Â¦       +-- jquery.min.js    # jQuery library
+Â¦
 +-- ?? Styling
-¦   +-- style.css            # Main stylesheet (3362+ lines)
-¦   +-- css/
-¦       +-- font-awesome.min.css  # Font Awesome icons
-¦
+Â¦   +-- style.css            # Main stylesheet (3362+ lines)
+Â¦   +-- css/
+Â¦       +-- font-awesome.min.css  # Font Awesome icons
+Â¦
 +-- ?? Data Files
-¦   +-- events.json          # Event data (2700+ lines)
-¦   +-- manifest.json        # PWA manifest
-¦   +-- sitemap.xml          # SEO sitemap
-¦   +-- cookie_policy.md     # Cookie policy document
-¦   +-- CNAME                # Custom domain config
-¦
+Â¦   +-- events.json          # Event data (2700+ lines)
+Â¦   +-- manifest.json        # PWA manifest
+Â¦   +-- sitemap.xml          # SEO sitemap
+Â¦   +-- cookie_policy.md     # Cookie policy document
+Â¦   +-- CNAME                # Custom domain config
+Â¦
 +-- ?? Assets
-¦   +-- bgs/                 # Event background images (75 files)
-¦   +-- sponsors/            # Sponsor logos (13 files)
-¦   +-- image/               # General images (3 files)
-¦   +-- [Various images & SVGs at root level]
-¦
+Â¦   +-- bgs/                 # Event background images (75 files)
+Â¦   +-- sponsors/            # Sponsor logos (13 files)
+Â¦   +-- image/               # General images (3 files)
+Â¦   +-- [Various images & SVGs at root level]
+Â¦
 +-- ?? Fonts
-¦   +-- Jura-VariableFont_wght.woff2
-¦   +-- Montserrat-Medium.woff2
-¦   +-- prakrta_.woff2
-¦
+Â¦   +-- Jura-VariableFont_wght.woff2
+Â¦   +-- Montserrat-Medium.woff2
+Â¦   +-- prakrta_.woff2
+Â¦
 +-- ?? Configuration
     +-- service-worker.js    # PWA service worker
     +-- manifest.json        # Web app manifest
@@ -507,7 +463,7 @@ The website supports **Progressive Web App** functionality:
 
 ---
 
-> *"This isn't just code — it's craftsmanship."* - Sushant Gajbhiye
+> *"This isn't just code Â— it's craftsmanship."* - Sushant Gajbhiye
 
 ---
 
