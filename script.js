@@ -12,9 +12,9 @@ function notify(e, l) {
   (not_con.innerHTML = e),
     deccept_cookie(),
     -1 != l &&
-      setTimeout(function () {
-        accept_cookie();
-      }, l);
+    setTimeout(function () {
+      accept_cookie();
+    }, l);
 }
 var login_error_list = [
   "Error !",
@@ -27,123 +27,11 @@ function login_error(e = null) {
 }
 function popstasticopener(
   e = "/",
-  l = "Takshashila Google Authentication",
+  l = "Technoutsav Google Authentication",
   n = "height=600,width=450"
 ) {
   var a = window.open(e, l, n);
   window.focus && a.focus();
-}
-function password_eye() {
-  onload = function () {
-    let e = document.getElementById("passwordEye"),
-      l = document.getElementById("password_input");
-    e.onclick = function (e) {
-      let n = "password" === l.getAttribute("type") ? "text" : "password";
-      l.setAttribute("type", n), this.classList.toggle("fa-eye-slash");
-    };
-    var n = document.getElementById("password_input"),
-      a = document.getElementById("passwordEye");
-    n.addEventListener(
-      "input",
-      function () {
-        a.style.display = "block";
-      },
-      { passive: !0 }
-    ),
-      (n.onblur = function () {
-        "" == this.value && (a.style.display = "none");
-      });
-  };
-}
-function validatePassword() {
-  let e = document.getElementById("password"),
-    l = document.getElementById("repassword");
-  e.value != l.value
-    ? (l.setCustomValidity("Password Does Not Match !"),
-      console.log("Password Does Not Match !"))
-    : l.setCustomValidity("");
-}
-function set_deafult_graduation_date() {
-  let e = document.getElementById("graduate_year"),
-    l = new Date(),
-    n = ("0" + (l.getMonth() + 1)).slice(-2),
-    a = l.getFullYear();
-  e.value = `${a + 3}-${n}`;
-}
-function getCookie(e) {
-  let l = e + "=",
-    n = decodeURIComponent(document.cookie).split(";");
-  for (let a = 0; a < n.length; a++) {
-    let s = n[a];
-    for (; " " == s.charAt(0); ) s = s.substring(1);
-    if (0 == s.indexOf(l)) return s.substring(l.length, s.length);
-  }
-  return "";
-}
-function load_hash() {
-  var e = getCookie("hash");
-  return (document.getElementById("hash").value = e), e;
-}
-function load_details() {
-  load_hash();
-  var e = getCookie("first_name");
-  document.getElementById("first_name").value = e;
-  var l = getCookie("last_name");
-  document.getElementById("last_name").value = l;
-  var n = getCookie("phone");
-  document.getElementById("ph_number").value = n;
-}
-function load_date(e = !1) {
-  var l = new Date().getFullYear();
-  let n = l + 8;
-  var a = document.getElementById("graduate_year");
-  for (i = l - 8; i < n; i++) a.add(new Option(i));
-  !0 == e && (a.selectedIndex = 12);
-}
-function sign_in_check(e) {
-  h = getCookie("hash");
-  var l = getCookie("session");
-  if ((console.log(h && l), h))
-    switch (e) {
-      case 0:
-        window.location.replace("/");
-        break;
-      case 1:
-        getCookie("user_details") && window.location.replace("/"),
-          window.location.replace("/login");
-    }
-  else 0 === e && window.location.replace("/login");
-}
-function get_acc() {
-  (t = getCookie("hash")) &&
-    ((top_link.innerHTML = "Account"), (top_link.href = "/profile/" + t));
-}
-function profile_edit(e) {
-  var l = document.getElementById(e);
-  (l.disabled = !1), (l.readOnly = !1), l.focus();
-  var n = l.nextElementSibling.firstElementChild;
-  n.classList.remove("fa-edit"), n.classList.add("fa-save");
-}
-function profile_onblur(e, l) {
-  (e.disabled = !0), (e.readOnly = !0), e.value || (e.value = l);
-  var n = e.nextElementSibling.firstElementChild;
-  n.classList.remove("fa-save"), n.classList.add("fa-edit");
-}
-function single_page_login(e) {
-  let l = document.getElementById("regi");
-  1 == e
-    ? ((l.style.transform = "translate(-50%, 100%) scale(0)"),
-      window.history.pushState(
-        "page2",
-        "Title",
-        "/Takshashila-2023-Web-Design/login.html"
-      ))
-    : ((l.style.transform = "translate(-50%, -52%) scale(1)"),
-      window.history.pushState(
-        "page2",
-        "Title",
-        "/Takshashila-2023-Web-Design/login.html#/signup"
-      ));
 }
 var slideIndex = 1;
 function plusSlides(e) {
@@ -155,20 +43,40 @@ function currentSlide(e) {
 function showSlides(e) {
   var l,
     n = document.getElementsByClassName("locac"),
-    a = document.getElementsByClassName("dot");
-  for (
-    e > n.length && (slideIndex = 1), e < 1 && (slideIndex = n.length), l = 0;
-    l < n.length;
-    l++
-  )
+    a = document.getElementsByClassName("loc_but_1"); // Changed from 'dot' to 'loc_but_1'
+
+  // Wrap around logic
+  e > n.length && (slideIndex = 1), e < 1 && (slideIndex = n.length);
+
+  // Hide all slides
+  for (l = 0; l < n.length; l++)
     n[l].style.display = "none";
-  for (l = 0; l < a.length; l++)
-    a[l].className = a[l].className.replace(" current", "");
-  (n[slideIndex - 1].style.display = "block"),
-    (a[slideIndex - 1].className += " current"),
-    1 == e
-      ? (document.getElementById("Loconn").innerHTML = "Location")
-      : (document.getElementById("Loconn").innerHTML = "Contact");
+
+  // Reset all buttons
+  for (l = 0; l < a.length; l++) {
+    // a[l].className = a[l].className.replace(" current", ""); 
+    // Use direct style as per HTML usage
+    a[l].style.background = "transparent";
+    a[l].style.color = "rgba(255, 255, 255, 0.6)";
+  }
+
+  // Show active slide
+  (n[slideIndex - 1].style.display = "block");
+
+  // Highlight active button
+  if (a.length > 0) {
+    a[slideIndex - 1].style.background = "rgba(255,255,255,.1)";
+    a[slideIndex - 1].style.color = "#fff";
+  }
+
+  // Update title text
+  1 == slideIndex
+    ? (document.getElementById("Loconn").innerHTML = "Location")
+    : (document.getElementById("Loconn").innerHTML = "Contact");
+}
+
+function activ_but(e) {
+  // Logic moved to showSlides to ensure consistency with arrows
 }
 function myFunction(e) {
   e >= 200 ? myvid.classList.add("blur") : myvid.classList.remove("blur");
@@ -209,45 +117,41 @@ function callbackRouter(e, l) {
     a = n.target;
   n.intersectionRatio > 0
     ? a.dataset.callback &&
-      (window[a.dataset.callback](a, !0),
+    (window[a.dataset.callback](a, !0),
       "true" == a.dataset.once && (a.classList.remove("jos"), l.unobserve(a)))
     : a.dataset.callback && window[a.dataset.callback](a, !1);
 }
 function graphic() {
+  var pro_sec_el = document.getElementById("pro_sec");
   1 == graphic_high
     ? ((graphic_high = 0),
       (myvid.style.display = "none"),
-      // (image4.style.display = "block"),
-      // (image3.style.display = "block"),
-      // (image9.style.display = "block"),
-      (pro_sec.style.background = "#131313"),
+      pro_sec_el && (pro_sec_el.style.background = "#131313"),
       ripple.classList.remove("rypol"),
       notify("Acrylic Theme Deactivated !", 3e3))
     : ((graphic_high = 1),
       (myvid.style.display = "block"),
-      // (image4.style.display = "none"),
-      // (image3.style.display = "none"),
-      // (image9.style.display = "none"),
-      (pro_sec.style.background = "transparent"),
+      pro_sec_el && (pro_sec_el.style.background = "transparent"),
       ripple.classList.add("rypol"),
       notify("Acrylic Theme Activated !", 3e3));
 }
 
+// (onload = function () {
+//   showSlides(slideIndex);
+// }),
 (onload = function () {
-  showSlides(slideIndex);
+  document.getElementById("image4"),
+    document.getElementById("image3"),
+    document.getElementById("image9"),
+    document.getElementById("pro_sec"),
+    document.getElementById("ripple");
 }),
-  (onload = function () {
-    document.getElementById("image4"),
-      document.getElementById("image3"),
-      document.getElementById("image9"),
-      document.getElementById("pro_sec"),
-      document.getElementById("ripple");
-  }),
   "serviceWorker" in navigator
     ? navigator.serviceWorker
-        .register("service-worker.js")
-        .then((e) => {})
-        .catch((e) => {
-          console.log("SW Registration Failed");
-        })
+      .register("service-worker.js")
+      .then((e) => { })
+      .catch((e) => {
+        console.log("SW Registration Failed");
+      })
     : console.log("Not supported");
+

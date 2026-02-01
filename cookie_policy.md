@@ -1,8 +1,8 @@
-<h1>Cookie Policy for CIT - Takshashila 2023</h1>
+<h1>Cookie Policy for CIT - Technoutsav 2025</h1>
 
 <p>
-  This is the Cookie Policy for CIT - Takshashila 2023, accessible from
-  http://www.cittakshashila.in/
+  This is the Cookie Policy for CIT - Technoutsav 2025, accessible from
+  http://www.Technoutsav/
 </p>
 
 <p><strong>What Are Cookies</strong></p>
@@ -179,6 +179,7 @@
 </p>
 
 <ul>
-  <li>Email: takshashila@citchennai.net</li>
-  <li>By visiting this link: http://www.cittakshashila.in/</li>
+  <li>Email: Technoutsav@citchennai.net</li>
+  <li>By visiting this link: http://www.Technoutsav/</li>
 </ul>
+
