@@ -1,6 +1,6 @@
 [
   {
-    "name": "SKYNETRA 2026 - Drone Innovation Expo",
+    "name": "SKYNETRA 2026",
     "type": "Technical",
     "tags": [
       "Drone",
@@ -10,7 +10,7 @@
     "image": "./bgs/SKYNETRA_EXPO.png",
     "fee": "1000",
     "team_size": "4",
-    "description": "??? Explore cutting-edge drone technology, witness thrilling live demonstrations, and get hands-on experience with innovative drone systems at SKYNETRA, where creativity meets technology! SKYNETRA is a four-day technical event featuring expert sessions, hands-on workshops, live drone demonstrations, and exciting challenges.",
+    "description": "Explore cutting-edge drone technology, witness thrilling live demonstrations, and get hands-on experience with innovative drone systems at SKYNETRA, where creativity meets technology! SKYNETRA is a four-day technical event featuring expert sessions, hands-on workshops, live drone demonstrations, and exciting challenges.",
     "tag_line": "Where Creativity Meets Technology!",
     "rules": [
       [
@@ -18,8 +18,8 @@
         "Date: 22nd February 2026",
         "Time: 11:00 AM to 4:00 PM",
         "Venue: Cricket Ground, SBJITMR",
-        "Entry Fee: ?1000 per team",
-        "Prize Pool: ?60,000",
+        "Entry Fee: 1000 per team",
+        "Prize Pool: 60,000",
         "All team members must carry valid college ID cards",
         "Decision of the judges will be final"
       ]
@@ -39,8 +39,8 @@
     "incharge": [
       {
         "name": "Event Coordinator",
-        "email": "events@sbjit.edu.in",
-        "phone": "9999999999"
+        "email": "krishs.etc23d@sbjit.edu.in",
+        "phone": "9665947641"
       }
     ],
     "instagram": "https://www.instagram.com/officialfeeta/",
@@ -58,12 +58,12 @@
     "image": "./bgs/WATER_POLO.png",
     "fee": "280",
     "team_size": "7",
-    "description": "?????? Compete in the Inter-Department Water Polo Competition with your team and showcase speed, skill, and teamwork in exciting matches! This thrilling aquatic sport brings together the best swimmers to compete for glory.",
+    "description": "Compete in the Inter-Department Water Polo Competition with your team and showcase speed, skill, and teamwork in exciting matches! This thrilling aquatic sport brings together the best swimmers to compete for glory.",
     "tag_line": "Dive In, Play Hard, Win Big!",
     "rules": [
       [
         "Team must consist of 7 players (5 + 2 Substitutes)",
-        "Entry Fee: ?280 (Men) / ?210 (Women)",
+        "Entry Fee:  280 (Men) /  210 (Women)",
         "Date: 20th and 21st February 2026",
         "Time: 11:00 AM to 4:00 PM",
         "Venue: Swimming Pool, SBJITMR",
@@ -87,9 +87,9 @@
     ],
     "incharge": [
       {
-        "name": "Sports Coordinator",
-        "email": "sports@sbjit.edu.in",
-        "phone": "9999999999"
+        "name": "Event Coordinator",
+        "email": "krishs.etc23d@sbjit.edu.in",
+        "phone": "9665947641"
       }
     ],
     "instagram": "https://www.instagram.com/officialfeeta/",
@@ -107,12 +107,12 @@
     "image": "./bgs/SQUID_GAME.png",
     "fee": "50",
     "team_size": "1",
-    "description": "???? Enter the ultimate survival game where every move counts. Trust no one, play smart, and fight to win it all! ?? Step into thrilling challenges designed just for YOU. Enjoy fun, fast-paced games that test your wits, speed, and strategy.",
+    "description": "     Enter the ultimate survival game where every move counts. Trust no one, play smart, and fight to win it all!    Step into thrilling challenges designed just for YOU. Enjoy fun, fast-paced games that test your wits, speed, and strategy.",
     "tag_line": "Survive the Game, Win the Glory!",
     "rules": [
       [
         "Individual participation only",
-        "Entry Fee: ?50 per person",
+        "Entry Fee:  50 per person",
         "Date: 23rd and 24th February 2026",
         "Time: 11:00 AM to 3:00 PM",
         "Venue: Cricket Ground, SBJITMR",
@@ -138,8 +138,8 @@
     "incharge": [
       {
         "name": "Event Coordinator",
-        "email": "events@sbjit.edu.in",
-        "phone": "9999999999"
+        "email": "krishs.etc23d@sbjit.edu.in",
+        "phone": "9665947641"
       }
     ],
     "instagram": "https://www.instagram.com/officialfeeta/",
@@ -158,17 +158,17 @@
     "image": "./bgs/BADMINTON.png",
     "fee": "30",
     "team_size": "1-2",
-    "description": "?? ?? Smash, drop, and rally your way to victory! ?? ?? Calling all badminton enthusiasts! We're excited to host the Inter-Department Badminton Competition featuring thrilling solo and duo matches. Get ready to showcase your skill, speed, and strategy on the court!",
+    "description": "      Smash, drop, and rally your way to victory!       Calling all badminton enthusiasts! We're excited to host the Inter-Department Badminton Competition featuring thrilling solo and duo matches. Get ready to showcase your skill, speed, and strategy on the court!",
     "tag_line": "Smash Your Way to Victory!",
     "rules": [
       [
-        "Solo: ?30 per head | Duo: ?50 per team",
+        "Solo:  30 per head | Duo:  50 per team",
         "Date: 20th and 21st February 2026",
         "Time: 11:00 AM Onwards",
         "Venue: Tennis Ground, SBJITMR",
         "Deadline for form submission: 12 Feb, 2026 Till 5:00 PM",
-        "Solo Prize: Winner ?500, Runner Up ?300",
-        "Duo Prize: Winner ?1000",
+        "Solo Prize: Winner  500, Runner Up  300",
+        "Duo Prize: Winner  1000",
         "Standard badminton rules apply",
         "Participants must carry valid college ID cards",
         "Knockout format will be followed",
@@ -189,9 +189,9 @@
     ],
     "incharge": [
       {
-        "name": "Sports Coordinator",
-        "email": "sports@sbjit.edu.in",
-        "phone": "9999999999"
+        "name": "Event Coordinator",
+        "email": "krishs.etc23d@sbjit.edu.in",
+        "phone": "9665947641"
       }
     ],
     "instagram": "https://www.instagram.com/officialfeeta/",
@@ -209,12 +209,12 @@
     "image": "./bgs/SKYNETRA_WORKSHOP.png",
     "fee": "100",
     "team_size": "1",
-    "description": "??? Explore cutting-edge drone technology, witness thrilling live demonstrations, and get hands-on experience with innovative drone systems at SKYNETRA, where creativity meets technology! SKYNETRA is a four-day technical event featuring expert sessions, hands-on workshops, live drone demonstrations, and exciting challenges.",
+    "description": "    Explore cutting-edge drone technology, witness thrilling live demonstrations, and get hands-on experience with innovative drone systems at SKYNETRA, where creativity meets technology! SKYNETRA is a four-day technical event featuring expert sessions, hands-on workshops, live drone demonstrations, and exciting challenges.",
     "tag_line": "Learn. Build. Innovate.",
     "rules": [
       [
         "Individual participation",
-        "Entry Fee: ?100 per person",
+        "Entry Fee:  100 per person",
         "Date: 20-21st February 2026",
         "Time: 11:00 AM to 4:00 PM",
         "Venue: Canteen, SBJITMR",
@@ -238,9 +238,9 @@
     ],
     "incharge": [
       {
-        "name": "Workshop Coordinator",
-        "email": "workshops@sbjit.edu.in",
-        "phone": "9999999999"
+        "name": "Event Coordinator",
+        "email": "krishs.etc23d@sbjit.edu.in",
+        "phone": "9665947641"
       }
     ],
     "instagram": "https://www.instagram.com/officialfeeta/",

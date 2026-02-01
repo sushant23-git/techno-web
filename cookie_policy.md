@@ -1,8 +1,8 @@
-<h1>Cookie Policy for CIT - Technoutsav 2025</h1>
+<h1>Cookie Policy for CIT - Technotsav 2025</h1>
 
 <p>
-  This is the Cookie Policy for CIT - Technoutsav 2025, accessible from
-  http://www.Technoutsav/
+  This is the Cookie Policy for CIT - Technotsav 2025, accessible from
+  http://www.Technotsav/
 </p>
 
 <p><strong>What Are Cookies</strong></p>
@@ -179,7 +179,7 @@
 </p>
 
 <ul>
-  <li>Email: Technoutsav@citchennai.net</li>
-  <li>By visiting this link: http://www.Technoutsav/</li>
+  <li>Email: Technotsav@citchennai.net</li>
+  <li>By visiting this link: http://www.Technotsav/</li>
 </ul>
 

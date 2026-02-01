@@ -1,6 +1,6 @@
-# Technoutsav 2025 - Project Documentation
+# Technotsav 2025 - Project Documentation
 
-> **CIT's Cultural Event Website** - A beautifully crafted website for the prestigious Technoutsav cultural event at Chennai Institute of Technology.
+> **CIT's Cultural Event Website** - A beautifully crafted website for the prestigious Technotsav cultural event at Chennai Institute of Technology.
 
 ---
 
@@ -23,7 +23,7 @@
 
 ## ?? Project Overview
 
-**Technoutsav 2025** is a comprehensive website built for the annual cultural festival at Chennai Institute of Technology. The website was developed by **Sushant Gajbhiye** as a solo project in just **2 weeks** without any AI assistance (2023).
+**Technotsav 2025** is a comprehensive website built for the annual cultural festival at Chennai Institute of Technology. The website was developed by **Sushant Gajbhiye** as a solo project in just **2 weeks** without any AI assistance (2023).
 
 The project showcases:
 - Event listings (Technical, Non-Technical, Workshops, Sports, Pro Shows)
@@ -38,9 +38,9 @@ The project showcases:
 
 | Platform | URL |
 |----------|-----|
-| **Official** | [2023.Technoutsav](https://2023.Technoutsav) |
-| **Vercel** | [2023citTechnoutsav.vercel.app](https://2023citTechnoutsav.vercel.app) |
-| **GitHub Pages** | [sushant23-git.github.io/Technoutsav-Website](https://sushant23-git.github.io/Technoutsav-Website) |
+| **Official** | [2023.Technotsav](https://2023.Technotsav) |
+| **Vercel** | [2023citTechnotsav.vercel.app](https://2023citTechnotsav.vercel.app) |
+| **GitHub Pages** | [sushant23-git.github.io/Technotsav-Website](https://sushant23-git.github.io/Technotsav-Website) |
 
 ---
 
@@ -62,7 +62,7 @@ The project showcases:
 ## ?? Project Structure
 
 ```
-Technoutsav-Website/
+Technotsav-Website/
 ¦
 +-- ?? HTML Pages
 ¦   +-- index.html           # Main landing page
@@ -290,7 +290,7 @@ Technoutsav-Website/
 |------|-------------|
 | `CIT Logo_blue_butterfly.webp` | College logo |
 | `logo h 2.webp` | Horizontal logo |
-| `TK icon logo.svg` | Technoutsav icon |
+| `TK icon logo.svg` | Technotsav icon |
 | `tk logo outline.svg` | Outline version of logo |
 | `Group 11.webp`, `Group 12.svg`, `Group 304.png` | Design elements |
 | `noise.webp` | Texture overlay for visual effect |
@@ -346,8 +346,8 @@ Contains Open Graph images and favicons.
     "email": "email@citchennai.net",
     "phone": "9876543210"
   }],
-  "instagram": "https://instagram.com/citTechnoutsav...",
-  "youtube": "https://www.youtube.com/@CITTechnoutsav",
+  "instagram": "https://instagram.com/citTechnotsav...",
+  "youtube": "https://www.youtube.com/@CITTechnotsav",
   "register": "https://forms.gle/..."
 }
 ```
@@ -366,7 +366,7 @@ Contains Open Graph images and favicons.
 ```json
 {
   "name": "CIT - Takshahila 2023",
-  "short_name": "Technoutsav 23",
+  "short_name": "Technotsav 23",
   "start_url": "./",
   "theme_color": "#282828",
   "background_color": "#282828",
@@ -388,7 +388,7 @@ Lists main pages with priorities:
 
 ### `CNAME`
 - **Content**: Custom domain configuration
-- **Domain**: Technoutsav
+- **Domain**: Technotsav
 
 ---
 
@@ -493,7 +493,7 @@ The website supports **Progressive Web App** functionality:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/sushant23-git/Technoutsav-Website.git
+   git clone https://github.com/sushant23-git/Technotsav-Website.git
    ```
 
 2. **Open in browser**
@@ -512,5 +512,5 @@ The website supports **Progressive Web App** functionality:
 ---
 
 **Document Generated**: February 2026  
-**Project Version**: Technoutsav 2025
+**Project Version**: Technotsav 2025
 

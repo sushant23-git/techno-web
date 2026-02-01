@@ -1,11 +1,11 @@
-# [Technoutsav-2023-Web-Design](https://github.com/sushant23-git/Technoutsav-Website)
+# [Technotsav-2023-Web-Design](https://github.com/sushant23-git/Technotsav-Website)
 
-> CIT's [best web-designer](https://github.com/sushant23-git) builds the most elegant [webpage](https://sushant23-git.github.io/Technoutsav-Website) for the prestigious *Technoutsav* event.  
+> CIT's [best web-designer](https://github.com/sushant23-git) builds the most elegant [webpage](https://sushant23-git.github.io/Technotsav-Website) for the prestigious *Technotsav* event.  
 
 **Live Versions:**
-- ?? [2023.Technoutsav](https://2023.Technoutsav)
-- ?? [Vercel Deployment](https://2023citTechnoutsav.vercel.app)
-- ?? [Main GitHub Pages](https://sushant23-git.github.io/Technoutsav-Website)
+- ?? [2023.Technotsav](https://2023.Technotsav)
+- ?? [Vercel Deployment](https://2023citTechnotsav.vercel.app)
+- ?? [Main GitHub Pages](https://sushant23-git.github.io/Technotsav-Website)
 
 ---
 
@@ -34,14 +34,14 @@ This entire project runs **without any modern frontend framework** — just my own
 **Don’t change the design** — it’s already *perfecto* (0_-) 
 If it were me, I’d enhance the project like this:
 
-- Build a **dashboard** for [editing events](https://www.Technoutsav/edit.html) via the [event.json file](https://github.com/sushant23-git/Technoutsav-Website/blob/master/events.json).  
+- Build a **dashboard** for [editing events](https://www.Technotsav/edit.html) via the [event.json file](https://github.com/sushant23-git/Technotsav-Website/blob/master/events.json).  
   This saves a ton of time and helps volunteers manage the event smoothly.
 
 ---
 
 ## Backend Wisdom
 
-Yup, I even worked on the [backend](https://github.com/sushant23-git/Technoutsav) — had a **working prototype**, but couldn’t ship it due to time constraints. Still, here’s what I’d suggest:
+Yup, I even worked on the [backend](https://github.com/sushant23-git/Technotsav) — had a **working prototype**, but couldn’t ship it due to time constraints. Still, here’s what I’d suggest:
 
 - Keep login/register flow **simple** — don’t go overboard with verification.  
   *Scared of bots/hackers? Use Cloudflare (OG solution).*

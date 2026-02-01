@@ -27,7 +27,7 @@ function login_error(e = null) {
 }
 function popstasticopener(
   e = "/",
-  l = "Technoutsav Google Authentication",
+  l = "Technotsav Google Authentication",
   n = "height=600,width=450"
 ) {
   var a = window.open(e, l, n);
