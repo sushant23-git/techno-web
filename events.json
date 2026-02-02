@@ -107,7 +107,7 @@
     "image": "./bgs/SQUID_GAME.png",
     "fee": "50",
     "team_size": "1",
-    "description": "     Enter the ultimate survival game where every move counts. Trust no one, play smart, and fight to win it all!    Step into thrilling challenges designed just for YOU. Enjoy fun, fast-paced games that test your wits, speed, and strategy.",
+    "description": "Enter the ultimate survival game where every move counts. Trust no one, play smart, and fight to win it all!    Step into thrilling challenges designed just for YOU. Enjoy fun, fast-paced games that test your wits, speed, and strategy.",
     "tag_line": "Survive the Game, Win the Glory!",
     "rules": [
       [
@@ -116,7 +116,7 @@
         "Date: 23rd and 24th February 2026",
         "Time: 11:00 AM to 3:00 PM",
         "Venue: Cricket Ground, SBJITMR",
-        "Deadline for form submission: 12 Feb, 2026 till 5:00 PM",
+        "Deadline for form submission: 20 Feb, 2026 till 5:00 PM",
         "Multiple rounds of elimination games",
         "Participants must follow game rules strictly",
         "Fair play is mandatory - any misconduct leads to disqualification",
@@ -158,7 +158,7 @@
     "image": "./bgs/BADMINTON.png",
     "fee": "30",
     "team_size": "1-2",
-    "description": "      Smash, drop, and rally your way to victory!       Calling all badminton enthusiasts! We're excited to host the Inter-Department Badminton Competition featuring thrilling solo and duo matches. Get ready to showcase your skill, speed, and strategy on the court!",
+    "description": "Smash, drop, and rally your way to victory!       Calling all badminton enthusiasts! We're excited to host the Inter-Department Badminton Competition featuring thrilling solo and duo matches. Get ready to showcase your skill, speed, and strategy on the court!",
     "tag_line": "Smash Your Way to Victory!",
     "rules": [
       [
@@ -246,5 +246,106 @@
     "instagram": "https://www.instagram.com/officialfeeta/",
     "youtube": "https://www.youtube.com/@SBJITMR",
     "register": "https://forms.gle/5TBXCBTaKpLFRdW77"
+  },
+  {
+    "name": "Festivo",
+    "type": "Non-Technical",
+    "tags": [
+      "Fun",
+      "Games",
+      "Survival"
+    ],
+    "image": "./bgs/FESTIVO.jpeg",
+    "fee": "",
+    "team_size": "1",
+    "description": "A carnival is a fun-filled event that brings people together through colorful décor, engaging games, entertainment, and lively activities. It creates a joyful atmosphere that promotes relaxation, interaction, and a sense of celebration.",
+    "tag_line": "Where Fun Comes Alive!",
+    "rules": [
+      [
+        "Individual participation only",
+        "Entry Fee:  20 per person",
+        "Date: 23rd and 24th February 2026",
+        "Time: 11:00 AM to 3:00 PM",
+        "Venue: ETC Arena, SBJITMR",
+        "Deadline for form submission: No Deadline",
+        "Multiple Games with different themes",
+        "Participants must follow game rules strictly",
+        "Fair play is mandatory - any misconduct leads to disqualification",
+        "Decision of the organizers will be final"
+      ]
+    ],
+    "prize": {
+      "first": "3333",
+      "second": "-",
+      "third": "-"
+    },
+    "date": "23 February 2026",
+    "batch": [
+      {
+        "time": "11:30 AM to 4:00 PM",
+        "venue": "ETC Arena, SBJITMR"
+      }
+    ],
+    "incharge": [
+      {
+        "name": "Event Coordinator",
+        "email": "krishs.etc23d@sbjit.edu.in",
+        "phone": "9665947641"
+      }
+    ],
+    "instagram": "https://www.instagram.com/officialfeeta/",
+    "youtube": "https://www.youtube.com/@SBJITMR",
+    "register": "festivo-registration.html"
+  },
+  {
+    "name": "Game Zone 2026",
+    "type": "Non-Technical",
+    "tags": [
+      "Fun",
+      "Games",
+      "PS5",
+      "VR Games"
+    ],
+    "image": "./bgs/GAMEZONE.jpeg",
+    "fee": "",
+    "team_size": "1",
+    "description": "Game Zone is an interactive gaming arena featuring PS5 and VR experiences, offering high-energy competitive and fun gameplay. Participants can enjoy popular console and virtual reality games in a professionally managed setup with timed slots, live scoring, and exciting rewards. ",
+    "tag_line": "Play,Compete,Conquer",
+    "rules": [
+      [
+        "Individual participation only",
+        "Entry Fee:  PS-5 100/- for 30 min  \n VR- 100/- for 15 min",
+        "Date: 21st to 23rd February 2026",
+        "Time: 11:00 AM to 5:30 PM",
+        "Venue: Research Lab, ETC department, SBJITMR",
+        "Deadline for form submission: No Deadline",
+        "VR and PS-5 Experience",
+        "Participants must follow game rules strictly",
+        "Fair play is mandatory - any misconduct leads to disqualification",
+        "Decision of the organizers will be final"
+      ]
+    ],
+    "prize": {
+      "first": "3333",
+      "second": "-",
+      "third": "-"
+    },
+    "date": "23 February 2026",
+    "batch": [
+      {
+        "time": "11:30 AM to 4:00 PM",
+        "venue": "ETC Arena, SBJITMR"
+      }
+    ],
+    "incharge": [
+      {
+        "name": "Event Coordinator",
+        "email": "krishs.etc23d@sbjit.edu.in",
+        "phone": "9665947641"
+      }
+    ],
+    "instagram": "https://www.instagram.com/officialfeeta/",
+    "youtube": "https://www.youtube.com/@SBJITMR",
+    "register": "festivo-registration.html"
   }
 ]
