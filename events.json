@@ -56,7 +56,7 @@
       "Inter-Department"
     ],
     "image": "./bgs/WATER_POLO.png",
-    "fee": "280",
+    "fee": "280/210",
     "team_size": "7",
     "description": "Compete in the Inter-Department Water Polo Competition with your team and showcase speed, skill, and teamwork in exciting matches! This thrilling aquatic sport brings together the best swimmers to compete for glory.",
     "tag_line": "Dive In, Play Hard, Win Big!",
@@ -255,7 +255,7 @@
       "Games",
       "Survival"
     ],
-    "image": "./bgs/FESTIVO.jpeg",
+    "image": "./bgs/FESTIVO.png",
     "fee": "",
     "team_size": "1",
     "description": "A carnival is a fun-filled event that brings people together through colorful décor, engaging games, entertainment, and lively activities. It creates a joyful atmosphere that promotes relaxation, interaction, and a sense of celebration.",
