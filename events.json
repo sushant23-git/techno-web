@@ -25,9 +25,9 @@
       ]
     ],
     "prize": {
-      "first": "30000",
-      "second": "20000",
-      "third": "10000"
+      "first": "20000",
+      "second": "10000",
+      "third": ""
     },
     "date": "22 February 2026",
     "batch": [
@@ -264,7 +264,7 @@
       [
         "Individual participation only",
         "Entry Fee:  20 per person",
-        "Date: 23rd and 24th February 2026",
+        "Date: 22rd and 23th February 2026",
         "Time: 11:00 AM to 3:00 PM",
         "Venue: ETC Arena, SBJITMR",
         "Deadline for form submission: No Deadline",
@@ -279,7 +279,7 @@
       "second": "-",
       "third": "-"
     },
-    "date": "23 February 2026",
+    "date": "22 February 2026",
     "batch": [
       {
         "time": "11:30 AM to 4:00 PM",

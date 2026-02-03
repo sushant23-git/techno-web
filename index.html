@@ -284,7 +284,7 @@ Developed by Sushant Gajbhiye
       flex-direction: row;
       align-items: center;
       justify-content: center;
-      margin-top: 1vw;
+      margin-top: -1vw;
       gap: 2vw;
     }
 
@@ -374,6 +374,8 @@ Developed by Sushant Gajbhiye
       align-items: center;
       gap: 4vw;
       margin: 4vw;
+      margin-top: 5vw;
+      /* Adjusted for alignment with logo */
       width: 100%;
       position: relative;
     }
@@ -862,7 +864,7 @@ Developed by Sushant Gajbhiye
 
     .to_title {
       margin-top: 8%;
-      margin-left: 0;
+      margin-left: 7%;
       transition: 0.7s ease-in-out;
       opacity: 0;
     }
@@ -4058,6 +4060,44 @@ Developed by Sushant Gajbhiye
       position: relative;
       overflow: hidden;
     }
+
+    /* Feeta Logo Styles */
+    .feeta-logo {
+      height: 8vw;
+      width: auto;
+      transition: 0.3s;
+    }
+
+    /* About Section Logos */
+    .logo-row-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15vw;
+      margin: 4vw 0;
+      width: 100%;
+    }
+
+    .about-logo {
+      height: 12vw;
+      width: auto;
+      filter: brightness(1.2);
+      transition: 0.3s;
+    }
+
+    @media (max-width: 768px) {
+      .feeta-logo {
+        height: 25vw;
+      }
+
+      .logo-row-container {
+        gap: 10vw;
+      }
+
+      .about-logo {
+        height: 25vw;
+      }
+    }
   </style>
   <link rel=manifest href=manifest.json>
 
@@ -4173,12 +4213,14 @@ Developed by Sushant Gajbhiye
   </div>
 </div>
 <header>
-  <a class="ev_title title_font link_cur" data-text="Technotsav" href="./index.html"
-    style="position: absolute; left: 2vw; top: 1.5vw; z-index: 10;">Technotsav</a>
+  <a class="ev_title link_cur" data-text="Technotsav" href="./index.html"
+    style="position: absolute; left: 2vw; top: 1.5vw; z-index: 2001;">
+    <img src="./sbjain.webp" class="feeta-logo" alt="Technotsav">
+  </a>
 
   <div class=noise-container></div>
   <div class="main_logo link_cur op_reveal" data-text="Technotsav" style="z-index: 5" onclick="graphic()">
-    <img src="./technotsav_logo.webp" alt="Technotsav Logo" style="height: 60px; width: auto; filter: brightness(1.2);">
+    <img src="./sbjain.webp" alt="Technotsav Logo" style="height: 90px; width: auto; filter: brightness(1.2);">
   </div>
   <div class=main_navigation id=navbar>
     <a href=#about data-text="About Us" class="navigation_links link_cur" style=animation-delay:4.5s>About</a>
@@ -4237,6 +4279,31 @@ Developed by Sushant Gajbhiye
         <a href=https://www.sbjit.edu.in/about target=_blank class="desc_but link_cur" data-text=More>More</a>
       </div>
       <br>
+      <div class="to_title jos" data-callback=fly_in style=margin-top:5% data-once=true> About FEETA </div>
+      <div class="slogans desc jos" data-callback=fade_opaci data-once=false>FEETA (Future Electronics Engineering
+        Technocrats Association) is a dynamic technical forum dedicated to nurturing innovation, technical skills, and
+        professional growth among electronics and engineering students. The forum serves as a platform for hands-on
+        learning, knowledge sharing, and collaboration through workshops, technical events, competitions, expert talks,
+        and real-world project development. FEETA aims to bridge the gap between academic learning and industry
+        requirements by encouraging creativity, problem-solving, and technological excellence, while fostering
+        leadership, teamwork, and a strong engineering mindset among future technocrats.
+      </div>
+      <br>
+      <br>
+      <div class="logo-row-container jos" data-callback=fade_opaci data-once=false>
+        <img src="./feeta.webp" class="about-logo" alt="FEETA Logo">
+        <img src="./iete.webp" class="about-logo" alt="IETE Logo">
+      </div>
+      <br>
+      <br>
+      <div class="to_title jos" data-callback=fly_in style=margin-top:5% data-once=true> About IETE </div>
+      <div class="slogans desc jos" data-callback=fade_opaci data-once=false>The Institution of Electronics and
+        Telecommunication Engineers (IETE) is India’s leading recognised professional society devoted to the advancement
+        of Science and Technology of Electronics, Telecommunication & IT Founded in 1953.
+      </div>
+      <br>
+      <br>
+
       <div class="to_title jos" data-callback=fly_in style=margin-top:5% data-once=true> About Technotsav </div>
       <div class="slogans desc jos" data-callback=fade_opaci data-once=false>Technotsav is SBJITMR’s flagship
         national-level technical festival, envisioned as a vibrant convergence of technology, management, and culture.
@@ -4251,6 +4318,7 @@ Developed by Sushant Gajbhiye
         expected footfall
         of over 4,000 students, the event creates an energetic ecosystem that celebrates emerging talent, practical
         skills, and forward-thinking ideas, making it one of the most anticipated student-led festivals of the year.
+
     </section>
     <section class=event_section id=events>
       <div class="gallery_text solo_text jos" data-callback=fly_in data-once=true> EVENTS </div>
