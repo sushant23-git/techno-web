@@ -155,9 +155,6 @@ Last Updated : April 4th 2023
     <div class="eop" value="false" id="nontechnicalmob"
       onclick="toggle(this, '.eop', 'eop_active');notify('Non-Technical | Filter Applied !',5000)"
       data-type="Non-Technical">Non-Technical Events</div>
-    <div class="eop" value="false" id="workshopsmob"
-      onclick="toggle(this, '.eop', 'eop_active');notify('Workshops | Filter Applied !',5000)" data-type="Workshops">
-      Workshops</div>
     <div class="eop" value="false"
       onclick="toggle(this, '.eop', 'eop_active');notify('Sports | Filter Applied !',5000);" data-type="Sports">Sports
     </div>
@@ -214,11 +211,6 @@ Last Updated : April 4th 2023
         onclick="toggle(this, '.fil_bub','eve_active');notify('Non-Technical | Filter Applied !',5000)"
         data-type="Non-Technical" data-text="Non-Technical Events">
         Non-Technical
-      </button>
-      <button class="fil_bub link_cur " value="false" id="workshops"
-        onclick="toggle(this, '.fil_bub','eve_active');notify('Workshops | Filter Applied !',5000)"
-        data-type="Workshops" data-text="Workshops">
-        Workshops
       </button>
 
       <button class="fil_bub link_cur " value="false"
@@ -1103,7 +1095,7 @@ Last Updated : April 4th 2023
   }
 
   var mob_card = document.getElementById("eve_options");
-  var types = ["Technical", "Non-Technical", "Workshops", "Sports"];
+  var types = ["Technical", "Non-Technical", "Sports"];
 
   function toggle(e, ty, act) {
 

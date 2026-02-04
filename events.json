@@ -15,7 +15,7 @@
     "rules": [
       [
         "Team Size: 2-4 members (Duo, Trio or Squad)",
-        "Date: 22nd February 2026",
+        "Date: 23nd February 2026",
         "Time: 11:00 AM to 4:00 PM",
         "Venue: Cricket Ground, SBJITMR",
         "Entry Fee: 1000 per team",
@@ -27,9 +27,9 @@
     "prize": {
       "first": "20000",
       "second": "10000",
-      "third": ""
+      "third": "`"
     },
-    "date": "22 February 2026",
+    "date": "23 February 2026",
     "batch": [
       {
         "time": "11:00 AM",
@@ -199,29 +199,29 @@
     "register": "https://forms.gle/8HTJVfrvy2jkFQCAA"
   },
   {
-    "name": "SKYNETRA 2026 - Drone Innovation Workshop",
-    "type": "Workshops",
+    "name": "SKYNETRA 2026 - Aeroflying Program",
+    "type": "Technical",
     "tags": [
       "Drone",
-      "Workshop",
+      "Flying",
       "Learning"
     ],
     "image": "./bgs/SKYNETRA_WORKSHOP.png",
     "fee": "100",
     "team_size": "1",
-    "description": "    Explore cutting-edge drone technology, witness thrilling live demonstrations, and get hands-on experience with innovative drone systems at SKYNETRA, where creativity meets technology! SKYNETRA is a four-day technical event featuring expert sessions, hands-on workshops, live drone demonstrations, and exciting challenges.",
-    "tag_line": "Learn. Build. Innovate.",
+    "description": "The Skynetra Aeroflying Program is designed to introduce students to the exciting world of drone technology and automation through interactive sessions, live demonstrations, and hands-on exposure. The objective is to spark curiosity, enhance technical thinking, and provide early exposure to emerging technologies in a fun and engaging manner.",
+    "tag_line": "Learn. Fly. Innovate.",
     "rules": [
       [
         "Individual participation",
-        "Entry Fee:  100 per person",
-        "Date: 20-21st February 2026",
+        "Students from 5th to 12th Standard",
+        "Entry Fee:  50 per person",
+        "Date: 21st-22nd February 2026",
         "Time: 11:00 AM to 4:00 PM",
-        "Venue: Canteen, SBJITMR",
-        "Hands-on experience with drone components",
-        "Expert sessions on drone technology",
-        "All participants will receive participation certificates",
-        "Bring your own laptop if possible"
+        "Venue: SBJITMR",
+        "Hands-on experience with drones",
+        "Expert guidanq on drone Flying",
+        "All participants will receive Flying certificates"
       ]
     ],
     "prize": {
@@ -229,11 +229,11 @@
       "second": "-",
       "third": "-"
     },
-    "date": "20-21 February 2026",
+    "date": "21st-22nd February 2026",
     "batch": [
       {
         "time": "11:00 AM",
-        "venue": "Canteen, SBJITMR"
+        "venue": "SBJITMR"
       }
     ],
     "incharge": [
@@ -264,7 +264,7 @@
       [
         "Individual participation only",
         "Entry Fee:  20 per person",
-        "Date: 22rd and 23th February 2026",
+        "Date: 21st to 23rd February 2026",
         "Time: 11:00 AM to 3:00 PM",
         "Venue: ETC Arena, SBJITMR",
         "Deadline for form submission: No Deadline",
@@ -279,7 +279,7 @@
       "second": "-",
       "third": "-"
     },
-    "date": "22 February 2026",
+    "date": "21st to 23rd February 2026",
     "batch": [
       {
         "time": "11:30 AM to 4:00 PM",
@@ -309,32 +309,32 @@
     "image": "./bgs/GAMEZONE.jpeg",
     "fee": "",
     "team_size": "1",
-    "description": "Game Zone is an interactive gaming arena featuring PS5 and VR experiences, offering high-energy competitive and fun gameplay. Participants can enjoy popular console and virtual reality games in a professionally managed setup with timed slots, live scoring, and exciting rewards. ",
+    "description": "Game Zone is an interactive gaming arena featuring PS5 experiences, offering high-energy competitive and fun gameplay. Participants can enjoy popular console games in a professionally managed setup with timed slots, live scoring, and exciting rewards.",
     "tag_line": "Play,Compete,Conquer",
     "rules": [
       [
         "Individual participation only",
-        "Entry Fee:  PS-5 100/- for 30 min  \n VR- 100/- for 15 min",
+        "Entry Fee:  PS-5 100/- for 30 min",
         "Date: 21st to 23rd February 2026",
         "Time: 11:00 AM to 5:30 PM",
-        "Venue: Research Lab, ETC department, SBJITMR",
+        "Venue: E108,MBA department, SBJITMR",
         "Deadline for form submission: No Deadline",
-        "VR and PS-5 Experience",
+        "PS-5 Experience",
         "Participants must follow game rules strictly",
         "Fair play is mandatory - any misconduct leads to disqualification",
         "Decision of the organizers will be final"
       ]
     ],
     "prize": {
-      "first": "3333",
+      "first": "-",
       "second": "-",
       "third": "-"
     },
-    "date": "23 February 2026",
+    "date": "21st to 23rd February 2026",
     "batch": [
       {
         "time": "11:30 AM to 4:00 PM",
-        "venue": "ETC Arena, SBJITMR"
+        "venue": "E108,MBA department, SBJITMR"
       }
     ],
     "incharge": [
